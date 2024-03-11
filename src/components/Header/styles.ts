@@ -72,7 +72,7 @@ export const Li = styled.li`
   .Cta {
     text-decoration: none;
     color: #fff;
-    font-family: Prompt;
+    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -104,6 +104,8 @@ export const LinkStyled = styled.a`
   }
   .Cta {
     background-color #000000;
+    width: 127px;
+    height: 22px;
   }
 `
 export const LinkRef = styled.a`

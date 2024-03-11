@@ -46,7 +46,8 @@ export const H3 = styled.h1`
   }
 `
 export const Paragrafo = styled.p`
-  width: 451px;
+  padding-top: 32px;
+  width: 600px;
   height: 60px;
   color: #1d1340;
   font-family: Prompt;
@@ -74,9 +75,10 @@ export const Botao = styled.div`
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 120% */
-  margin-top: 64px;
+  margin-top: 32px;
   @media (max-width: 1280px) {
     position: relative;
+    margin-top: 100px;
   }
 `
 export const Mockup = styled.div`
