@@ -18,11 +18,12 @@ export const GlobalCss = createGlobalStyle`
   body {
     background-color: ${cores.branco};
     color: ${cores.branco};
+    overflow-x: hidden;
 `
 export const Container = styled.div`
 width: 100%;
 max-width: 1920px;
 @media (max-width: 1024px) {
   width: 100%;
-  index: 1;
+
 `

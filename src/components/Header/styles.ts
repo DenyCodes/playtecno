@@ -15,7 +15,10 @@ export const BarraUP = styled.nav`
   display: flex;
 `
 export const NavBar = styled.div`
-  padding: 18px;
+padding: 16px;
+align-items: center;
+display: flex;
+justify-content: space-evenly;
   background-color: ${cores.branco};
 &.scrolled {
   position: fixed;
@@ -34,7 +37,6 @@ export const H1 = styled.h1`
   }
 `
 export const H2 = styled.h2`
-  margin-left: 369px;
   font-family: Prompt;
   font-size: 25px;
   font-style: normal;
@@ -55,10 +57,9 @@ export const H2 = styled.h2`
   }
 `
 export const Ul = styled.ul`
-  padding-left: 900px;
-  flex-direction: row;
   list-style: none;
   display: flex;
+  align-content: space-around;
   @media (max-width: 1400px) {
     padding-left: 0;
   }
