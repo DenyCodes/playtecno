@@ -82,29 +82,16 @@ export const Botao = styled.div`
   }
 `
 export const Mockup = styled.div`
+  width: 474px;
+  height: 486px;
   position: absolute;
-  padding-left: 1151px;
-  @media (max-width: 1024px) {
-    padding-left: 900px;
-    margin-left: 120px;
-    margin-top: 150px;
-    width: 80%;
-    padding: 80px 20px;
-    display: flex;
-    justify-content: flex-end;
-  }
-  @media (min-width: 769px) {
-    width: 100%;
-    padding-left: 900px;
-  }
-  .img {
-    @media (max-width: 1024px) {
-      width: 100%;
-      padding-left: 900px;
-    }
-    @media (min-width: 769px) {
-      width: 100%;
-      padding-left: 10px;
+  margin-left: 1000px;
+  @media (max-width: 768px) {
+    margin-left: 0;
+    img {
+      width: 50%;
+      padding-top: 250px;
+      margin-left: 150px;
     }
   }
 `

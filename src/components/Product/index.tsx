@@ -14,6 +14,8 @@ import WorldImg from '../../assets/images/worldw.svg'
 import servidor from '../../assets/images/servidor.svg'
 import ideia from '../../assets/images/ideia.svg'
 import movel from '../../assets/images/aplicativo-movel 1.png'
+import google from '../../assets/images/pesquisa 1.svg'
+import mapa from '../../assets/images/mapa 1.svg'
 
 const Product = () => (
   <>
@@ -24,6 +26,32 @@ const Product = () => (
         </Span>{' '}
       </Span>
       <Cards>
+        <Card>
+          <LogoCard>
+            <img src={google} />
+          </LogoCard>
+          <Carde>
+            <Titulo>Pesquisas do Google</Titulo>
+            <Descricao>
+              Destaque-se no Google com nosso serviço de SEO, apareça nas
+              pesquisas!
+            </Descricao>
+            <Botao href="">Saiba Mais</Botao>{' '}
+          </Carde>
+        </Card>
+        <Card>
+          <LogoCard>
+            <img src={mapa} />
+          </LogoCard>
+          <Carde>
+            <Titulo>Listagem Google Maps</Titulo>
+            <Descricao>
+              Aumente sua visibilidade online e facilite para os clientes
+              encontrarem seu negócio.
+            </Descricao>
+            <Botao href="">Saiba Mais</Botao>{' '}
+          </Carde>
+        </Card>
         <Card>
           <LogoCard>
             <img src={WorldImg} />

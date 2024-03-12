@@ -43,6 +43,11 @@ export const Rodape = styled.aside`
   padding: 32px 714px 32px 183px;
   flex-shrink: 0;
   background: #060606;
+  @media (max-width: 840px) {
+    padding: 0;
+    margin-top: 20px;
+    align-items: center;
+  }
 `
 export const TituloRodape = styled.h3`
   color: #fff;
@@ -52,6 +57,11 @@ export const TituloRodape = styled.h3`
   font-weight: 700;
   line-height: normal;
   margin-left: 210px;
+  @media (max-width: 840px) {
+    width: 90%;
+    margin: 10px;
+    padding-top: 30px;
+  }
 `
 export const Layer = styled.div`
   display: flex;
@@ -60,6 +70,12 @@ export const Layer = styled.div`
   position: relative;
   margin-left: 400px;
   padding-top: 50px;
+  @media (max-width: 840px) {
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding-top: 30px;
+  }
 `
 export const FaleConosco1 = styled.aside`
 margin: 0 10px;
@@ -77,6 +93,11 @@ export const Layer2 = styled.div`
   position: relative;
   margin-left: 1000px;
   top: -50px;
+  @media (max-width: 840px) {
+    align-items: center;
+    margin: 0;
+    top: 0;
+  }
 `
 export const Titulo2 = styled.h3`
   color: var(--524F59, #524f59);
@@ -85,6 +106,9 @@ export const Titulo2 = styled.h3`
   font-style: normal;
   font-weight: 400;
   line-height: 15px; /* 75% */
+  @media (max-width: 840px) {
+    display: none;
+  }
 `
 export const Descricao2 = styled.p`
   color: var(--1C1340, #1c1340);
@@ -105,4 +129,9 @@ export const Titulo4 = styled.h4`
   margin-left: 400px;
   padding-top: 30px;
   margin-bottom: 130px;
+  @media (max-width: 840px) {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
 `

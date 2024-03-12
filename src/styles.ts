@@ -25,5 +25,4 @@ max-width: 1920px;
 @media (max-width: 1024px) {
   width: auto;
   height: auto;
-  overflow-x: hidden;
 `

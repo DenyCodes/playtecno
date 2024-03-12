@@ -3,20 +3,14 @@ import { cores } from '../../styles'
 
 export const Cards = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 3fr);
   grid-auto-rows: auto;
   gap: 10px; /* Espaçamento entre os itens */
-  @media (min-width: 780px) {
+  @media (max-width: 840px) {
     grid-template-columns: repeat(2, 3fr);
     grid-auto-rows: auto;
     display: grid;
   }
-  .Carda {
-    align-items: center;
-    grid-column: 2;
-    @media (max-width: 1400px) {
-      grid-column: 3;
-    }
   }
 `
 export const Card = styled.li`
@@ -87,6 +81,7 @@ export const LogoCard = styled.image`
   margin-left: 136px;
   margin-top: 30px;
   display: flex;
+  margin-bottom: 15px;
 `
 export const Botao = styled.a`
   color: #6907f2;
