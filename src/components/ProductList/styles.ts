@@ -48,6 +48,9 @@ export const BolaImg = styled.div`
   position: absolute;
   margin-left: 1450px;
   top: 1560px;
+  @media (max-width: 1020px) {
+    display: none;
+  }
 `
 export const Subtitulo = styled.h1`
   margin-left: 166px;

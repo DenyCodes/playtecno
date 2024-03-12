@@ -28,6 +28,11 @@ justify-content: space-evenly;
   right: 0;
   padding: 18px;
   background-color: ${cores.branco};
+  @media (max-width: 1280px) {
+    width: 80%;
+    &.scrolled {
+      position: relative;
+  }
 `
 export const H1 = styled.h1`
   font-size: 11px;

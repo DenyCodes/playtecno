@@ -6,6 +6,11 @@ export const Cards = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   gap: 10px; /* Espaçamento entre os itens */
+  @media (min-width: 780px) {
+    grid-template-columns: repeat(2, 3fr);
+    grid-auto-rows: auto;
+    display: grid;
+  }
   .Carda {
     align-items: center;
     grid-column: 2;

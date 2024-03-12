@@ -85,6 +85,7 @@ export const Mockup = styled.div`
   position: absolute;
   padding-left: 1151px;
   @media (max-width: 1024px) {
+    padding-left: 900px;
     margin-left: 120px;
     margin-top: 150px;
     width: 80%;
@@ -92,9 +93,18 @@ export const Mockup = styled.div`
     display: flex;
     justify-content: flex-end;
   }
-  img {
+  @media (min-width: 769px) {
+    width: 100%;
+    padding-left: 900px;
+  }
+  .img {
     @media (max-width: 1024px) {
-      width: 80%;
+      width: 100%;
+      padding-left: 900px;
+    }
+    @media (min-width: 769px) {
+      width: 100%;
+      padding-left: 10px;
     }
   }
 `
