@@ -30,6 +30,7 @@ export const Card = styled.li`
 export const Carde = styled.div`
   width: 100%;
   text-align: center;
+  align-items: center;
 `
 export const Span = styled.h1`
   margin-bottom: 64px;

@@ -16,7 +16,7 @@ const Banner = () => (
           <Paragrafo>
             Temos a solução para você que busca um site do seu jeito!
           </Paragrafo>
-          <Botao>
+          <Botao href="https://wa.link/ozj877">
             {' '}
             <img src={whatsapp} alt="" />
             Fale Conosco

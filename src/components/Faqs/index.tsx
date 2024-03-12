@@ -168,7 +168,7 @@ const Faqs = () => {
         <p>
           Não consegue achar o que procura? Por favor, entre em contato conosco!
         </p>
-        <Botao>
+        <Botao href="https://wa.link/ozj877">
           <img src={whatsapp} />
           Fale Conosco
         </Botao>

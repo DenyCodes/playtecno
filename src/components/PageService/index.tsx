@@ -40,7 +40,7 @@ const PageService = () => (
       <Image6>
         <img src={Imagem6} />
       </Image6>
-      <FaleConosco className="Cta">
+      <FaleConosco className="Cta" href="https://wa.link/ozj877">
         <img src={whatsapp} alt="" />
         Fale Conosco
       </FaleConosco>

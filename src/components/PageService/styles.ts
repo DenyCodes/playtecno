@@ -55,7 +55,8 @@ export const ListaUl = styled.ul`
     width: 390px;
   }
 `
-export const FaleConosco = styled.div`
+export const FaleConosco = styled.a`
+  text-decoration: none;
   cursor: pointer;
   display: inline-flex;
   padding: 10px 20px;

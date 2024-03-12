@@ -60,7 +60,8 @@ export const Paragrafo = styled.p`
     padding-top: 60px;
   }
 `
-export const Botao = styled.div`
+export const Botao = styled.a`
+  text-decoration: none;
   cursor: pointer;
   display: inline-flex;
   padding: 10px 20px;

@@ -45,7 +45,7 @@ const Header = () => {
             <LinkStyled href="#">Sobre Nós</LinkStyled>
           </Li>
           <Li className="Cta">
-            <LinkStyled className="Cta" href="https://ws.me">
+            <LinkStyled className="Cta" href="https://wa.link/ozj877">
               Fale Conosco
             </LinkStyled>
           </Li>

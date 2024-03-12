@@ -82,7 +82,8 @@ export const Card = styled.section`
     padding: 0;
   }
 `
-export const Botao = styled.div`
+export const Botao = styled.a`
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   padding: 10px 20px;
