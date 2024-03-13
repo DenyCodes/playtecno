@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <HeaderBar>
       <BarraUP>
-        <H1>Fale conosco (21) 9999-9999 | playtecno@outlook.com.br</H1>
+        <H1>Fale conosco (21) 97711-2420 | playtecno@outlook.com.br</H1>
       </BarraUP>
       <NavBar className={isScrolled ? 'scrolled' : ''}>
         <H2>PlayTecno</H2>
