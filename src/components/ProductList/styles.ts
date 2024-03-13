@@ -41,6 +41,7 @@ export const Image3 = styled.div`
   }
 `
 export const Image4 = styled.div`
+  position: relative;
   padding-top: 123px;
   margin-left: 120px;
 `

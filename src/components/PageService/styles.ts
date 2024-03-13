@@ -5,7 +5,6 @@ export const Page = styled.section`
   background: linear-gradient(112deg, #ded9fc 16.24%, #d4b5ff 62.81%);
   width: 100%;
   height: 768px;
-  margin-top: 243px;
   position: relative;
 `
 export const Titulo = styled.h1`
