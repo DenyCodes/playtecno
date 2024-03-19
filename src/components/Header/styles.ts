@@ -131,6 +131,7 @@ export const LinkRef = styled.a`
   }
 `
 export const Div = styled.div`
+cursor: pointer;
 align-items: center;
 text-decoration: none;
   color: #000;
