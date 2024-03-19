@@ -8,11 +8,16 @@ import {
   NavBar,
   Ul,
   LinkStyled,
-  LinkRef
+  LinkRef,
+  Div,
+  Button
 } from './styles'
 
 const Header = () => {
+  const [ShowDropDown, SetDropDown] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+
+  const OnClick = () => SetDropDown(!ShowDropDown)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,9 +43,19 @@ const Header = () => {
           <Li>
             <LinkRef href="#">Inicio</LinkRef>
           </Li>
-          <Li>
-            <LinkStyled href="#">Serviços</LinkStyled>
-          </Li>
+          <Div className="dropdown">
+            <Button className="dropdown-btn" onClick={OnClick}>
+              menu
+            </Button>
+            {ShowDropDown && (
+              <ul className="dropdown-menu">
+                <li>Desenvolvimento de Sites</li>
+                <li>Hospedagem de Sites</li>
+                <li>Identidade de Visual</li>
+                <li>Desenvolvimento de App</li>
+              </ul>
+            )}
+          </Div>
           <Li>
             <LinkStyled href="#">Sobre Nós</LinkStyled>
           </Li>

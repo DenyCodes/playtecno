@@ -64,7 +64,7 @@ export const H2 = styled.h2`
 export const Ul = styled.ul`
   list-style: none;
   display: flex;
-  align-content: space-around;
+  align-items: center;
   @media (max-width: 1400px) {
     padding-left: 0;
   }
@@ -129,4 +129,96 @@ export const LinkRef = styled.a`
     padding-left: 20px;
     margin-left: 40px;
   }
+`
+export const Div = styled.div`
+align-items: center;
+text-decoration: none;
+  color: #000;
+  font-family: Prompt;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 110% */
+  padding: 10px 20px;
+  border-radius: 8px;
+  @media (max-width: 1400px) {
+    display: none;
+    margin: 10px;
+    padding: 10px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-menu {
+    margin-left: -70px;
+    list-style: none;
+    z-index: 1;
+    background-color: #fff;
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    font-family: Prompt;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 110% */
+    border-radius: 8px;
+    li {
+      margin: 0;
+      display: flex;
+      width: 180px;
+      height: 42px;
+      padding: 10px;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-bottom: 1px solid #D3D3D3;
+background: #FFF;
+color: #000;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 169.231% */
+    }
+    @media (max-width: 1400px) {
+      display: none;
+      margin: 10px;
+      padding: 10px;
+  }
+  dropdown-btn {
+    text-decoration: none;
+    color: #fff;
+    font-family: Prompt;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 110% */
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: ${cores.roxo};
+    @media (max-width: 1400px) {
+      display: none;
+      margin: 10px;
+      padding: 10px;
+  }
+`
+export const Button = styled.div`
+font-family: Prompt;
+.dropdown-btn {
+  text-decoration: none;
+  color: #fff;
+  font-family: Prompt;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 110% */
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #000000;
+  @media (max-width: 1400px) {
+    display: none;
+    margin: 10px;
+    padding: 10px;
 `
