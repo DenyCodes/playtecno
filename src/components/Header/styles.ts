@@ -166,6 +166,12 @@ text-decoration: none;
     line-height: 22px; /* 110% */
     border-radius: 8px;
     li {
+      text {
+        color: #fff;
+      }
+      &:hover {
+        background-color: ${cores.roxo}
+      }
       margin: 0;
       display: flex;
       width: 180px;

@@ -44,12 +44,12 @@ const Header = () => {
             <LinkRef href="#">Inicio</LinkRef>
           </Li>
           <Div className="dropdown">
-            <Button className="dropdown-btn" onClick={OnClick}>
+            <Button className="dropdown-btn" onMouseEnter={OnClick}>
               menu
             </Button>
             {ShowDropDown && (
               <ul className="dropdown-menu">
-                <li>Desenvolvimento de Sites</li>
+                <li className="text">Desenvolvimento de Sites</li>
                 <li>Hospedagem de Sites</li>
                 <li>Identidade de Visual</li>
                 <li>Desenvolvimento de App</li>
