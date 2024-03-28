@@ -15,7 +15,6 @@ export const BarraUP = styled.nav`
   display: flex;
 `
 export const NavBar = styled.div`
-padding: 16px;
 align-items: center;
 display: flex;
 justify-content: space-evenly;
@@ -70,6 +69,16 @@ export const Ul = styled.ul`
   }
 `
 export const Li = styled.li`
+  .icoimages {
+    padding-right: 9px;
+  }
+  .Alinhed {
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 9px;
+    }
+  }
   @media (max-width: 1400) {
     margin: 0;
     padding: 0;
@@ -93,11 +102,13 @@ export const Li = styled.li`
   }
 `
 export const LinkStyled = styled.a`
+  display: flex;
+  align-items: center;
   text-decoration: none;
   list-style: none;
   color: ${cores.preto};
   font-size: 14px;
-  margin: 34px;
+  margin: 20px;
   color: #000;
   font-family: Prompt;
   font-size: 16px;
@@ -114,14 +125,15 @@ export const LinkStyled = styled.a`
   }
 `
 export const LinkRef = styled.a`
+  padding: 9px;
   text-decoration: none;
-  color: var(--6907F2, #6907f2);
+  color: var(--1C1340, #1c1340);
   font-family: Prompt;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 22px; /* 137.5% */
-  margin-right: 50px;
+  margin-right: 20px;
   @media (max-width: 1400px) {
     padding: 0;
   }
@@ -130,7 +142,17 @@ export const LinkRef = styled.a`
     margin-left: 40px;
   }
 `
+export const Imageico = styled.img`
+  display: flex;
+  height: 46px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+`
+
 export const Div = styled.div`
+padding-left: 9px;
+display: flex;
 cursor: pointer;
 align-items: center;
 text-decoration: none;
@@ -142,6 +164,9 @@ text-decoration: none;
   line-height: 22px; /* 110% */
   padding: 10px 20px;
   border-radius: 8px;
+  .icoimages {
+    padding-right: 9px;
+  }
   @media (max-width: 1400px) {
     display: none;
     margin: 10px;
@@ -152,7 +177,7 @@ text-decoration: none;
     display: inline-block;
   }
   .dropdown-menu {
-    margin-left: -70px;
+    margin-top: 200px;
     list-style: none;
     z-index: 1;
     background-color: #fff;
@@ -166,7 +191,7 @@ text-decoration: none;
     line-height: 22px; /* 110% */
     border-radius: 8px;
     li {
-      text {
+      .text{
         color: #fff;
       }
       &:hover {
@@ -174,7 +199,7 @@ text-decoration: none;
       }
       margin: 0;
       display: flex;
-      width: 180px;
+      width: 250px;
       height: 42px;
       padding: 10px;
       align-items: center;
@@ -213,7 +238,10 @@ line-height: 22px; /* 169.231% */
 `
 export const Button = styled.div`
 font-family: Prompt;
+align-items: center;
+display: flex;
 .dropdown-btn {
+  padding-right: 9px;
   text-decoration: none;
   color: #fff;
   font-family: Prompt;
