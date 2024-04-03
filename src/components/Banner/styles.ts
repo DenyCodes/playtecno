@@ -37,9 +37,8 @@ export const H3 = styled.h1`
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  width: 460px;
-  height: 60px;
+  line-height: 21px;
+  width: 400px;
   @media (max-width: 1400px) {
     line-height: 30px;
     width: 99%;
@@ -49,7 +48,7 @@ export const Paragrafo = styled.p`
   padding-top: 32px;
   width: 600px;
   height: 60px;
-  color: #1d1340;
+  color: #42307d;
   font-family: Prompt;
   font-size: 20px;
   font-style: normal;

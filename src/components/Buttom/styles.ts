@@ -16,8 +16,9 @@ export const Botao = styled.a`
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 120% */
-  @media (max-width: 1280px) {
+  @media (max-width: 720px) {
     position: relative;
-    margin-top: 100px;
+    width: 80%;
+    height: auto;
   }
 `

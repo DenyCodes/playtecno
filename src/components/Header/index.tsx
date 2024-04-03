@@ -53,7 +53,7 @@ const Header = () => {
         <Ul>
           <img src={home} />
           <Li>
-            <LinkRef href="#" className="Alinhed">
+            <LinkRef href="/home" className="Alinhed">
               Inicio
             </LinkRef>
           </Li>

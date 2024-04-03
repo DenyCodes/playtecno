@@ -19,10 +19,15 @@ export const GlobalCss = createGlobalStyle`
     background-color: ${cores.branco};
     color: ${cores.branco};
     overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    line-height: normal;
 `
 export const Container = styled.div`
-max-width: 1920px;
-@media (max-width: 1024px) {
-  width: auto;
+@media (max-width: 768px) {
+  width: 100%;
   height: auto;
+  @media (min-width: 700px) {
+    width: 80%;
+  }
 `

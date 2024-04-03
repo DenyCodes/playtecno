@@ -12,10 +12,8 @@ const Banner = () => (
       </Mockup>
       <Imagem style={{ backgroundImage: `url(${bannerimg})` }}>
         <Div>
-          <H3>Procurando por Especialistas em desenvolvimento de sites?</H3>
-          <Paragrafo>
-            Temos a solução para você que busca um site do seu jeito!
-          </Paragrafo>
+          <H3>Crie seu negócio on-line em apenas um lugar</H3>
+          <Paragrafo>Seu negócio do seu jeito!</Paragrafo>
           <Botao href="https://wa.link/ozj877">
             {' '}
             <img src={whatsapp} alt="" />

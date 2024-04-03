@@ -27,10 +27,11 @@ justify-content: space-evenly;
   right: 0;
   padding: 18px;
   background-color: ${cores.branco};
-  @media (max-width: 1280px) {
-    width: 80%;
-    &.scrolled {
-      position: relative;
+  @media (max-width: 1080px) {
+    width: 90%;
+
+  @media (min-width: 768px) {
+    width: 100%;
   }
 `
 export const H1 = styled.h1`
@@ -64,8 +65,8 @@ export const Ul = styled.ul`
   list-style: none;
   display: flex;
   align-items: center;
-  @media (max-width: 1400px) {
-    padding-left: 0;
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `
 export const Li = styled.li`

@@ -6,10 +6,11 @@ export const Cards = styled.ul`
   grid-template-columns: repeat(3, 3fr);
   grid-auto-rows: auto;
   gap: 10px; /* Espaçamento entre os itens */
-  @media (max-width: 840px) {
+  @media (max-width: 768px) {
     grid-template-columns: repeat(2, 3fr);
     grid-auto-rows: auto;
     display: grid;
+    width: auto;
   }
   }
 `
@@ -21,9 +22,9 @@ export const Card = styled.li`
   text-align: center;
   margin-right: 25px;
   border-radius: 4px;
-  @media (max-width: 1400px) {
+  @media (max-width: 768px) {
     align-items: center;
-    grid-column: 3;
+    width: 100%;
     gap: 24px;
   }
 `
@@ -41,7 +42,7 @@ export const Span = styled.h1`
   font-style: normal;
   font-weight: 500;
   line-height: 22px; /* 73.333% */
-  @media (max-width: 1400px) {
+  @media (max-width: 768px) {
     text-align: center;
   }
 `
@@ -83,6 +84,9 @@ export const LogoCard = styled.image`
   margin-top: 30px;
   display: flex;
   margin-bottom: 15px;
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 export const Botao = styled.a`
   color: #6907f2;
@@ -99,4 +103,7 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
