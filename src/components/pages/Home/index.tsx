@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import Banner from '../../Banner'
 import Faqs from '../../Faqs'
 import Footer from '../../Footer'
@@ -9,6 +11,7 @@ import Promocoes from '../../Promocoes'
 
 const Home = () => (
   <>
+    <Analytics />
     <Header />
     <Banner />
     <Product />
