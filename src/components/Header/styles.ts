@@ -192,6 +192,9 @@ text-decoration: none;
     line-height: 22px; /* 110% */
     border-radius: 8px;
     li {
+      a{
+        list-style: none;
+      }
       .text{
         color: #fff;
       }

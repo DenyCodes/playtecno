@@ -69,7 +69,7 @@ const Header = () => {
                 <li className="text">
                   {' '}
                   <Imageico src={wwww} />
-                  Desenvolvimento de Sites
+                  <a href="/web">Desenvolvimento de Sites</a>
                 </li>
                 <li>
                   {' '}

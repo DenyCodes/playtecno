@@ -6,7 +6,7 @@ import Web from './components/pages/WebDeveloper'
 
 const rotas = createBrowserRouter([
   {
-    path: '/home',
+    path: '/*',
     element: <Home />
   },
   {
