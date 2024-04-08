@@ -1,9 +1,28 @@
-import { Section } from './styles'
+import Card from './Cards'
+import {
+  AllCard,
+  Card1,
+  Card2,
+  Containertitulo,
+  Section,
+  Titulo,
+  UserAval
+} from './styles'
 
 const Users = () => (
   <Section>
-    <h1>3940+ Usuários satisfeitos!</h1>
-    <h2>Não acredite apenas em nossas palavras</h2>
+    <Containertitulo>
+      <UserAval>3940+ Usuários satisfeitos!</UserAval>
+      <Titulo>Não acredite apenas em nossas palavras</Titulo>
+    </Containertitulo>
+    <AllCard>
+      <Card1>
+        <Card image={'First'} name={''} />
+      </Card1>
+      <Card2>
+        <Card image={'Second'} name={''} />
+      </Card2>
+    </AllCard>
   </Section>
 )
 export default Users
