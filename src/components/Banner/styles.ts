@@ -34,11 +34,11 @@ export const Div = styled.div`
 export const H3 = styled.h1`
   color: #fff;
   font-family: Prompt;
-  font-size: 30px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
-  width: 400px;
+  line-height: 41px;
+  width: 600px;
   @media (max-width: 1400px) {
     line-height: 30px;
     width: 99%;
