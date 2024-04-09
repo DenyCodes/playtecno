@@ -1,0 +1,346 @@
+.rightBand3 {
+  position: absolute;
+  top: 454.65px;
+  left: 1395.89px;
+  width: 466.7px;
+  height: 129.5px;
+}
+.rightBand2 {
+  position: absolute;
+  top: 417.44px;
+  left: 915.89px;
+  width: 680px;
+  height: 156.5px;
+}
+.rightBand1 {
+  position: absolute;
+  top: 351px;
+  left: 1093.67px;
+  width: 466.7px;
+  height: 129.5px;
+}
+.leftBand1 {
+  position: absolute;
+  top: 559.11px;
+  left: -4.11px;
+  width: 466.7px;
+  height: 129.5px;
+}
+.leftBand2 {
+  position: absolute;
+  top: 651.32px;
+  left: -173px;
+  width: 466.7px;
+  height: 129.5px;
+}
+.featuredIcon {
+  width: 40px;
+  position: relative;
+  border-radius: 28px;
+  height: 40px;
+}
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.headingAndIcon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.headingAndPrice {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px 32px 0px;
+  text-align: center;
+  font-size: 20px;
+}
+.checkIcon {
+  width: 24px;
+  position: relative;
+  border-radius: 12px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.textWrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkItemText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.checkItemText3 {
+  width: 294px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.checkItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  color: #667085;
+}
+.text8 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.buttonBase {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #7f56d9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #7f56d9;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+}
+.button {
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonBase1 {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid #d0d5dd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+}
+.button1 {
+  width: 294px;
+  border-radius: 8px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #344054;
+}
+.actions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  color: #fff;
+}
+.pricingTierCard {
+  position: absolute;
+  top: 418px;
+  left: 185px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  border: 1px solid #eaecf0;
+  box-sizing: border-box;
+  width: 336.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkItemText13 {
+  width: 294px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #667085;
+}
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  color: #1c1340;
+}
+.footer1 {
+  align-self: stretch;
+  background-color: #e9d7fe;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  color: #fff;
+}
+.pricingTierCard1 {
+  position: absolute;
+  top: 418px;
+  left: 553.67px;
+  border-radius: 16px;
+  background-color: #d6bbfb;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  border: 1px solid #eaecf0;
+  box-sizing: border-box;
+  width: 336.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text26 {
+  width: 248px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.checkItems2 {
+  align-self: stretch;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.pricingTierCard2 {
+  position: absolute;
+  top: 418px;
+  left: 922.33px;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  border: 1px solid #eaecf0;
+  box-sizing: border-box;
+  width: 336.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text35 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.badgeBase {
+  border-radius: 16px;
+  background-color: #f9f5ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+}
+.badge {
+  position: absolute;
+  top: 84px;
+  left: 628px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: multiply;
+  text-align: center;
+  font-size: 14px;
+}
+.heading3 {
+  position: absolute;
+  top: 128px;
+  left: 208px;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  line-height: 60px;
+  font-weight: 600;
+  color: #42307d;
+  text-align: center;
+  display: inline-block;
+  width: 1024px;
+}
+.supportingText {
+  position: absolute;
+  top: 212px;
+  left: 208px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  width: 1024px;
+}
+.rightBand3Parent {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(170.17deg, #f9f5ff 37.04%, #fff 37.62%);
+  height: 1026px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #6941c6;
+  font-family: Inter;
+}
+.AllCards {
+  position: relative;
+  margin-left: 200px;
+}
