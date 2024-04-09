@@ -330,6 +330,7 @@
   width: 1024px;
 }
 .rightBand3Parent {
+  background-image: url(../../assets/images/grupo16.png);
   width: 100%;
   position: relative;
   background: linear-gradient(170.17deg, #f9f5ff 37.04%, #fff 37.62%);

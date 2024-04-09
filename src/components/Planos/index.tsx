@@ -14,12 +14,7 @@ import styles from './Frame.module.css'
 const Frame: FunctionComponent = () => {
   return (
     <div className={styles.rightBand3Parent}>
-      <div className="AllCards">
-        <img className={styles.rightBand3} alt="" src={band23} />
-        <img className={styles.rightBand2} alt="" src={band2} />
-        <img className={styles.rightBand1} alt="" src={band1} />
-        <img className={styles.leftBand1} alt="" src={band4} />
-        <img className={styles.leftBand2} alt="" src={band3} />
+      <div className={styles.AllCards}>
         <div className={styles.pricingTierCard}>
           <div className={styles.header}>
             <div className={styles.headingAndPrice}>
