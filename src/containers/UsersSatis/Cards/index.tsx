@@ -10,11 +10,17 @@ export type Props = {
 }
 
 const Card = ({ image, name }: Props) => {
-  let imageSrc
+  let imageSrc, paraText, h3Text
   if (image === 'First') {
     imageSrc = first
+    paraText =
+      'Estou extremamente satisfeita, Eles foram incrivelmente profissionais desde o início.'
+    h3Text = 'Jenny Wilson'
   } else if (image === 'Second') {
     imageSrc = second
+    paraText =
+      'O resultado final superou todas as minhas expectativas - o design é moderno, a navegação é intuitiva e a funcionalidade é impecável.'
+    h3Text = 'Devon Lane'
   }
 
   return (
@@ -27,13 +33,10 @@ const Card = ({ image, name }: Props) => {
       </Review>
       <Content>
         <div className="Texto">
-          <p>
-            Estou extremamente satisfeita, Eles foram incrivelmente
-            profissionais desde o início.
-          </p>
+          <p>{paraText}</p>
         </div>
         <div className="Name">
-          <h3>Jenny Wilson</h3>
+          <h3>{h3Text}</h3>
         </div>
       </Content>
     </Div>
