@@ -9,14 +9,16 @@ import styles from './SocialProof.module.css'
 const GetNinjas: FunctionComponent = () => {
   return (
     <div className={styles.socialProof8}>
-      <img className={styles.autoLayoutVertical} alt="" src={bbc} />
-      <img
-        className={styles.getninjasRemovebgPreview1Icon}
-        alt=""
-        src={getnin}
-      />
-      <img className={styles.autoLayoutHorizontal} alt="" src={dello} />
-      <img className={styles.frameIcon} alt="" src={unileven} />
+      <div className={styles.divgroup}>
+        <img className={styles.autoLayoutVertical} alt="" src={bbc} />
+        <img
+          className={styles.getninjasRemovebgPreview1Icon}
+          alt=""
+          src={getnin}
+        />
+        <img className={styles.autoLayoutHorizontal} alt="" src={dello} />
+        <img className={styles.frameIcon} alt="" src={unileven} />
+      </div>
     </div>
   )
 }

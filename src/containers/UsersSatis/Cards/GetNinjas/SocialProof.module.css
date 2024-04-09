@@ -36,3 +36,7 @@
   overflow: hidden;
 }
 
+.divgroup {
+  position: relative;
+    margin-left: 200px;
+}
