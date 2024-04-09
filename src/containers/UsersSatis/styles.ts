@@ -5,6 +5,7 @@ width: 100%;
 position: relative;
 background-color: #fff;
 height: 575.6px;
+height: auto;
 flex-wrap: wrap;
 justify-content: center;
 }

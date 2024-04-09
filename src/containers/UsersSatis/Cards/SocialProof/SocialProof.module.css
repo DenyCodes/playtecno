@@ -1,0 +1,50 @@
+.b {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 76px;
+}
+.cidadesEmTodo {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+  color: #1c1340;
+}
+.autoLayoutVertical {
+  flex: 1;
+  border-radius: 24px;
+  background-color: rgba(239, 242, 246, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  gap: 16px;
+}
+.autoLayoutHorizontal {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.socialProof3 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 120px 185px 120px 182px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 60px;
+  color: #486284;
+  font-family: Inter;
+}
+

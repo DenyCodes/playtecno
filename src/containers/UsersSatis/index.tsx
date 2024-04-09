@@ -1,4 +1,6 @@
 import Card from './Cards'
+import GetNinjas from './Cards/GetNinjas'
+import SocialProof from './Cards/SocialProof'
 import {
   AllCard,
   Card1,
@@ -23,6 +25,8 @@ const Users = () => (
         <Card image={'Second'} name={''} />
       </Card2>
     </AllCard>
+    <SocialProof />
+    <GetNinjas />
   </Section>
 )
 export default Users

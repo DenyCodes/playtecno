@@ -1,0 +1,38 @@
+.autoLayoutVertical {
+  position: absolute;
+  top: 85px;
+  left: 150px;
+  width: 112px;
+  height: 35px;
+}
+.getninjasRemovebgPreview1Icon {
+  position: absolute;
+  top: 75px;
+  left: 423px;
+  width: 247px;
+  height: 55px;
+  object-fit: cover;
+}
+.autoLayoutHorizontal {
+  position: absolute;
+  top: 87px;
+  left: 831px;
+  width: 147.2px;
+  height: 32px;
+}
+.frameIcon {
+  position: absolute;
+  top: 87px;
+  left: 1139px;
+  width: 149.6px;
+  height: 32px;
+  overflow: hidden;
+}
+.socialProof8 {
+  width: 100%;
+  position: relative;
+  background-color: #486284;
+  height: 195px;
+  overflow: hidden;
+}
+
