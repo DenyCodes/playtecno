@@ -1,39 +1,22 @@
 import { FunctionComponent } from 'react'
 import styles from './ResponsivoHomePage.module.css'
+import * as images from './images'
 
 const ResponsivoHomePage: FunctionComponent = () => {
   return (
     <div className={styles.responsivoHomePage}>
-      <img
-        className={styles.sl06052143530271Icon}
-        alt=""
-        src="SL_060521_43530_27 1.png"
-      />
+      <img className={styles.sl06052143530271Icon} alt="" src={images.banner} />
       <div className={styles.responsivoHomePageChild} />
       <div className={styles.playtecno}>PlayTecno</div>
-      <img className={styles.mainIcon} alt="" src="main.png" />
-      <img
-        className={styles.iphone15ProScreen}
-        alt=""
-        src="iPhone 15 Pro Screen.png"
-      />
-      <img
-        className={styles.macbookProScreen}
-        alt=""
-        src="MacBook Pro Screen.png"
-      />
+      <img className={styles.mainIcon} alt="" src={images.main} />
       <b className={styles.crieSeuNegcioContainer}>
         <p className={styles.crieSeuNegcio}>Crie seu negócio on-line</p>
         <p className={styles.emApenasUm}>em apenas um lugar</p>
       </b>
       <div className={styles.seuNegcioDo}>Seu negócio do seu jeito!</div>
-      <div className={styles.whatsappParent}>
-        <img className={styles.whatsappIcon} alt="" src="whatsapp.svg" />
-        <div className={styles.faleConosco}>Fale conosco</div>
-      </div>
-      <img className={styles.home02Icon} alt="" src="home-02.svg" />
-      <img className={styles.tool02Icon} alt="" src="tool-02.svg" />
-      <img className={styles.users03Icon} alt="" src="users-03.svg" />
+      <img className={styles.home02Icon} alt="" src={images.home} />
+      <img className={styles.tool02Icon} alt="" src={images.tool} />
+      <img className={styles.users03Icon} alt="" src={images.users} />
       <div className={styles.inicio}>Inicio</div>
       <div className={styles.servios}>Serviços</div>
       <div className={styles.sobreNs}>Sobre nós</div>
@@ -44,7 +27,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         </div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.rectangleGroup}>
@@ -52,7 +35,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         <div className={styles.identidadeVisual}>Identidade visual</div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.rectangleContainer}>
@@ -60,7 +43,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         <div className={styles.pesquisasDoGoogle}>Pesquisas do google</div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.groupDiv}>
@@ -68,7 +51,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         <div className={styles.lojaPersonalizada}>Loja personalizada</div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.rectangleParent1}>
@@ -76,7 +59,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         <div className={styles.hospedagemDeSites}>Hospedagem de sites</div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.rectangleParent2}>
@@ -84,7 +67,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         <div className={styles.hospedagemDeSites}>Desenv. de Aplicativo</div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.rectangleParent3}>
@@ -92,7 +75,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         <div className={styles.listagemGoogleMaps}>Listagem google maps</div>
         <div className={styles.component3}>
           <div className={styles.saibaMais}>Saiba mais</div>
-          <img className={styles.icon} alt="" src="Icon.svg" />
+          <img className={styles.icon} alt="" src={images.icon} />
         </div>
       </div>
       <div className={styles.preos}>
@@ -120,7 +103,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
           <img
             className={styles.backgroundPatternIcon}
             alt=""
-            src="Background pattern.svg"
+            src={images.pattern}
           />
         </div>
         <div className={styles.section1}>
@@ -133,7 +116,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.featuredIcon}
                         alt=""
-                        src="Featured icon.svg"
+                        src={images.zap}
                       />
                       <div className={styles.heading1}>Plano básico</div>
                     </div>
@@ -145,7 +128,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>
@@ -157,7 +140,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Acesso a loja online</div>
@@ -167,7 +150,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Suporte 24H</div>
@@ -177,7 +160,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -187,7 +170,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -197,7 +180,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -207,7 +190,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -217,7 +200,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -248,7 +231,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.featuredIcon}
                           alt=""
-                          src="Featured icon.svg"
+                          src={images.layer}
                         />
                         <div className={styles.heading1}>Plano Plus</div>
                       </div>
@@ -260,7 +243,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>200+ produtos</div>
@@ -270,7 +253,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>
@@ -282,7 +265,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>
@@ -294,7 +277,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Suporte 24h</div>
@@ -304,7 +287,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Hospedagem</div>
@@ -314,7 +297,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Another feature</div>
@@ -324,7 +307,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Another feature</div>
@@ -334,7 +317,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Another feature</div>
@@ -344,7 +327,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Another feature</div>
@@ -354,7 +337,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                         <img
                           className={styles.checkIcon}
                           alt=""
-                          src="Check icon.svg"
+                          src={images.checkicon}
                         />
                         <div className={styles.textWrap}>
                           <div className={styles.text1}>Another feature</div>
@@ -389,7 +372,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.featuredIcon}
                         alt=""
-                        src="Featured icon.svg"
+                        src={images.layer2}
                       />
                       <div className={styles.heading1}>Plano Premium</div>
                     </div>
@@ -401,7 +384,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Produtos ilimitados</div>
@@ -411,7 +394,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Loja personalizada</div>
@@ -421,7 +404,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Listagem google maps</div>
@@ -431,7 +414,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Suporte 24h</div>
@@ -441,7 +424,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Hospedagem</div>
@@ -451,7 +434,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -461,7 +444,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -471,7 +454,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -481,7 +464,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -491,7 +474,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                       <img
                         className={styles.checkIcon}
                         alt=""
-                        src="Check icon.svg"
+                        src={images.checkicon}
                       />
                       <div className={styles.textWrap}>
                         <div className={styles.text1}>Another feature</div>
@@ -502,7 +485,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
                     <img
                       className={styles.checkIcon}
                       alt=""
-                      src="Check icon.svg"
+                      src={images.checkicon}
                     />
                     <div className={styles.textWrap}>
                       <div className={styles.text1}>
@@ -577,7 +560,7 @@ const ResponsivoHomePage: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.whatsappGroup}>
-        <img className={styles.whatsappIcon1} alt="" src="whatsapp.svg" />
+        <img className={styles.whatsappIcon1} alt="" src={images.whatsapp} />
         <div className={styles.faleConosco}>Fale conosco</div>
       </div>
     </div>
