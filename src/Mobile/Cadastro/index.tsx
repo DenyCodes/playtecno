@@ -93,7 +93,7 @@ const Cadastro = () => {
       <ul>
         {members.map((member) => (
           <li key={member.id}>
-            {member.name} - {member.email} - {member.telefone}
+            {member.name} - {member.email} - <img src={member.telefone} />
             <button onClick={() => deleteMember(member.id)}>Delete</button>
           </li>
         ))}
