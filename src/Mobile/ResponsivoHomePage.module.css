@@ -141,6 +141,10 @@
   align-items: center;
   width: 18px;
   height: 15px;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 }
 .servios {
   position: absolute;

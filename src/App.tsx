@@ -5,6 +5,7 @@ import WebDeveloper from './components/pages/WebDeveloper'
 import Mobile from '../src/Mobile'
 import { GlobalCss, Container } from './styles'
 import { useMediaQuery } from 'react-responsive'
+import Cadastro from './Mobile/Cadastro'
 
 function App() {
   // Define a condição para verificar se a tela é menor
@@ -26,6 +27,7 @@ function App() {
             {/* Renderiza outras rotas normalmente */}
             <Route path="/home" element={<Home />} />
             <Route path="/web" element={<WebDeveloper />} />
+            <Route path="/cadastro" element={<Cadastro />} />
           </Routes>
         </Router>
       </Container>

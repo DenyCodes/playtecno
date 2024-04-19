@@ -17,7 +17,9 @@ const ResponsivoHomePage: FunctionComponent = () => {
       <img className={styles.home02Icon} alt="" src={images.home} />
       <img className={styles.tool02Icon} alt="" src={images.tool} />
       <img className={styles.users03Icon} alt="" src={images.users} />
-      <div className={styles.inicio}>Inicio</div>
+      <div className={styles.inicio}>
+        <a href="/">inicio</a>
+      </div>
       <div className={styles.servios}>Serviços</div>
       <div className={styles.sobreNs}>Sobre nós</div>
       <div className={styles.rectangleParent}>
