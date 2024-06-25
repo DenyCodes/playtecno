@@ -14,7 +14,7 @@ const Banner = () => (
         <Div>
           <H3>Crie seu negócio on-line em apenas um lugar</H3>
           <Paragrafo>Seu negócio do seu jeito!</Paragrafo>
-          <Botao href="https://wa.link/ozj877">
+          <Botao href="https://wa.link/s46js8">
             {' '}
             <img src={whatsapp} alt="" />
             Fale Conosco
