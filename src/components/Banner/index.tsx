@@ -4,8 +4,9 @@ import bannerLight from '../../assets/images/banner2.png'
 import { BannerSection, Botao, Mockup, Paragrafo } from './styles'
 import { Div, H3, Imagem } from './styles'
 import whatsapp from '../../assets/images/whatsapp.svg'
-import main from '../../assets/images/Group 3.svg'
+import main from '../../assets/images/main.svg'
 import { useThemeContext } from '../../contexts/ThemeContext'
+
 
 const Banner = () => {
   const { isDark } = useThemeContext()
@@ -14,7 +15,7 @@ const Banner = () => {
   return (
     <BannerSection>
       <Mockup>
-        <img src={main} />
+        <img alt="Imagem principal do banner" src={main} />
       </Mockup>
       <Imagem style={{ backgroundImage: `url(${bannerAtual})` }}>
         <Div>
@@ -22,7 +23,7 @@ const Banner = () => {
           <Paragrafo>Seu negócio do seu jeito!</Paragrafo>
           <Botao href="https://wa.link/s46js8">
             {' '}
-            <img src={whatsapp} alt="" />
+            <img alt="Imagem principal do banner" src={whatsapp} />
             Fale Conosco
           </Botao>
         </Div>
