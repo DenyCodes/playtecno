@@ -15,6 +15,7 @@ declare module 'styled-components' {
       h2: string
       span: string
       iconFilter: string
+      primaria: string;
     }
   }
 
