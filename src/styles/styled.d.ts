@@ -3,7 +3,7 @@ import 'styled-components'
 declare module 'styled-components' {
   export interface DefaultTheme {
     cores: {
-      primaria: Interpolation<FastOmit<DetailedHTMLProps<HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>, never>>
+      primaria: string;
       up: string
       card: string
       fundo: string
