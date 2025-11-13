@@ -11,6 +11,7 @@ export const themeDark = {
       'radial-gradient(100% 100% at 0% 50%, #fe7966 0%, #f84e8a 24%, #ea3cab 57%, #ef42b8 100%)',
     h2: '#f5f5f5', // ✅ adicionado
     span: '#6907F2',
-    iconFilter: 'none'
+    iconFilter: 'none',
+    primaria: '#000',
   }
 }
