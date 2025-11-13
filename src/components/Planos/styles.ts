@@ -91,7 +91,7 @@ export const Card = styled.aside`
       gap: 10px;
       margin-bottom: 14px;
 
-      td {
+      span {
         color: #667085;
         font-size: 16px;
       }

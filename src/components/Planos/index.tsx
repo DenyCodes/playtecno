@@ -36,8 +36,6 @@ const Frame: FunctionComponent = () => {
           <Icon>
             <img src={zap} alt="Ícone plano básico" />
           </Icon>
-          <h3>Plano Básico</h3>
-          <h4>R$ 690</h4>
           <ul>
             <li>
               <img src={checkbox} alt="" />
@@ -71,8 +69,6 @@ const Frame: FunctionComponent = () => {
           <Icon>
             <img src={layer} alt="Ícone plano plus" />
           </Icon>
-          <h3>Plano Profissional</h3>
-          <h4>R$ 1.290</h4>
           <ul>
             <li>
               <img src={checkbox} alt="" />
@@ -102,8 +98,6 @@ const Frame: FunctionComponent = () => {
           <Icon>
             <img src={layer2} alt="Ícone plano premium" />
           </Icon>
-          <h3>Plano Premium</h3>
-          <h4>R$ 4.990</h4>
           <ul>
             <li>
               <img src={checkbox} alt="" />
