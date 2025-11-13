@@ -11,8 +11,5 @@ export interface DefaultTheme {
     h2: string
     span: string
     iconFilter: string
-    btnfc?: string
-    branco?: string
-    spanfac?: string
   }
 }
