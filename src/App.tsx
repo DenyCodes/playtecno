@@ -4,8 +4,6 @@ import { useMediaQuery } from 'react-responsive'
 import { GlobalCss, Container } from './styles'
 import Home from './components/pages/Home'
 import WebDeveloper from './components/pages/WebDeveloper'
-import Cadastro from './Mobile/Cadastro'
-import Login from './Mobile/login'
 
 export interface AppProps {
   toggleTheme: () => void
@@ -27,8 +25,6 @@ const App: React.FC<AppProps> = () => {
             )}
             <Route path="/home" element={<Home />} />
             <Route path="/web" element={<WebDeveloper />} />
-            <Route path="/cadastro" element={<Cadastro />} />
-            <Route path="/login" element={<Login />} />
           </Routes>
         </Router>
       </Container>
