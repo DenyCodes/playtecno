@@ -59,7 +59,7 @@ export const H1 = styled.h1`
 `
 export const H2 = styled.h2`
   transition: all 0.3s ease;
-  font-family: Prompt;
+  font-family: Inter;
   font-size: 25px;
   font-style: normal;
   font-weight: 800;
