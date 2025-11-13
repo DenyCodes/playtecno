@@ -6,9 +6,11 @@ import lri from '../../assets/lri.png'
 import lri2 from '../../assets/lri2.png'
 import rollfor from '../../assets/rollfor.png'
 import braseiro from '../../assets/braseiro da lapa.png'
+import imobiliaria from '../../assets/imobiliaria.png'
 import { Card, Carousel, CarouselTrack, ClienteItem } from './styles'
 
-export const clientes = [
+const clientes = [
+  { id: 0, link: 'https://imobiliariaoliveira.vercel.app/', nome: 'imobiliaria', logo: imobiliaria },
   { id: 1, link: 'https://blog.lri.com.br/', nome: 'Lri', logo: lri },
   { id: 2, link: 'https://rollfor.com.br/', nome: 'Rollfor', logo: rollfor },
   { id: 3, link: 'https://menuden.vercel.app', nome: 'MenuDen', logo: menuden },

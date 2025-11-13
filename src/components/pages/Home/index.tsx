@@ -7,12 +7,14 @@ import Header from '../../Header'
 import Product from '../../Product'
 import Section from '../../Clientes'
 import Frame from '../../Planos'
+import Ad from './../../adcional/index'
 
 const Home = () => (
   <>
     <Analytics />
     <Header />
     <Banner />
+    <Ad />
     <Product />
     <Section />
     <Frame />
