@@ -81,7 +81,7 @@ export const Card = styled.section`
   transition: all 0.3s ease;
 
   h2 {
-    color: ${({ theme }) => theme.cores.pb};
+    color: #000;
     transition: all 0.3s ease;
   }
 

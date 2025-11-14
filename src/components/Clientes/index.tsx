@@ -1,7 +1,6 @@
 import multidrop from '../../assets/multidrop.png'
 import menuden from '../../assets/menuden.png'
 import impulso from '../../assets/impulso.png'
-import darkbytes from '../../assets/darkbytes.png'
 import lri from '../../assets/lri.png'
 import lri2 from '../../assets/lri2.png'
 import rollfor from '../../assets/rollfor.png'
@@ -32,12 +31,6 @@ const clientes = [
     link: 'https://braseirodalapa.com.br/',
     nome: 'Braseiro',
     logo: braseiro
-  },
-  {
-    id: 8,
-    link: 'https://darkbytes.vercel.app',
-    nome: 'DarkBytes',
-    logo: darkbytes
   }
 ]
 
