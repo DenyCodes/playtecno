@@ -3,7 +3,7 @@ import bannerLight from '../../assets/images/banner2.png'
 
 import { BannerSection, Botao, Mockup, Paragrafo } from './styles'
 import { Div, H3, Imagem } from './styles'
-import main from '../../assets/images/main.svg'
+import main from '../../assets/images/Dell XPS.png'
 import { useThemeContext } from '../../contexts/ThemeContext'
 
 

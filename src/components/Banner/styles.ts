@@ -87,6 +87,10 @@ export const Mockup = styled.div`
   height: 486px;
   position: absolute;
   margin-left: 1000px;
+  img {
+  width: 100%;
+  padding-top: 50px;
+}
   @media (max-width: 768px) {
     margin-left: 0;
     img {
