@@ -3,6 +3,7 @@ import { cores } from '../../styles'
 
 export const Botao = styled.a`
   text-decoration: none;
+  margin: 2px;
   transition: all 0.3s ease;
   cursor: pointer;
   display: inline-flex;
@@ -20,7 +21,7 @@ export const Botao = styled.a`
   line-height: 24px; /* 120% */
   @media (max-width: 720px) {
     position: relative;
-    width: 80%;
+    width: 50%;
     height: auto;
   }
 `

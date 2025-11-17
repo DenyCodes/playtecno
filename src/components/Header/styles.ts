@@ -23,10 +23,11 @@ transition: all 0.3s ease;
     cursor: pointer;
   }
   @media (max-width: 1080px) {
-    width: 90%;
+    width: 100%;
   }
   @media (min-width: 768px) {
     width: 100%;
+  }
 `
 export const NavBar = styled.div`
 transition: all 0.3s ease;
@@ -34,7 +35,7 @@ align-items: center;
 display: flex;
 justify-content: space-evenly;
   background-color: ${cores.branco};
-&.scrolled {
+  &.scrolled {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -43,7 +44,7 @@ justify-content: space-evenly;
   padding: 18px;
   background-color: ${cores.branco};
   @media (max-width: 1080px) {
-    width: 90%;
+    width: 100%;
 
   @media (min-width: 768px) {
     width: 100%;

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Quebra } from '../Faqs/styles'
 
 export const Foot = styled.section`
   transition: all 0.3s ease;

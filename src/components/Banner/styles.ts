@@ -83,12 +83,10 @@ export const Botao = styled.a`
   }
 `
 export const Mockup = styled.div`
-  width: 474px;
-  height: 486px;
   position: absolute;
   margin-left: 1000px;
   img {
-  width: 100%;
+  width: 50%;
   padding-top: 50px;
 }
   @media (max-width: 768px) {
