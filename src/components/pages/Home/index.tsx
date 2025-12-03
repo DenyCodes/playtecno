@@ -8,7 +8,7 @@ import Product from '../../Product'
 import Section from '../../Clientes'
 import Frame from '../../Planos'
 import Ad from './../../adcional/index'
-
+import AppointmentScheduler from '../../agende'
 const Home = () => (
   <>
     <Analytics />
@@ -18,6 +18,7 @@ const Home = () => (
     <Product />
     <Section />
     <Frame />
+    <AppointmentScheduler />
     <Faqs />
     <Footer />
   </>

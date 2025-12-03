@@ -14,5 +14,5 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src"
   },
-  "include": ["src"]
+  "include": ["src", "tailwind.config.js", "postcss.config.js"]
 }

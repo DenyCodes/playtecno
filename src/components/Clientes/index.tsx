@@ -12,7 +12,7 @@ const clientes = [
   { id: 0, link: 'https://imobiliariaoliveira.vercel.app/', nome: 'imobiliaria', logo: imobiliaria },
   { id: 1, link: 'https://blog.lri.com.br/', nome: 'Lri', logo: lri },
   { id: 2, link: 'https://rollfor.com.br/', nome: 'Rollfor', logo: rollfor },
-  { id: 3, link: 'https://menuden.vercel.app', nome: 'MenuDen', logo: menuden },
+  { id: 3, link: 'https://menu-den.vercel.app', nome: 'MenuDen', logo: menuden },
   { id: 4, link: 'https://projetos.lri.com.br/', nome: 'Lri2', logo: lri2 },
   {
     id: 5,
