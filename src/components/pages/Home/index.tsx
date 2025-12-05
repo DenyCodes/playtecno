@@ -8,14 +8,12 @@ import Product from '../../Product'
 import Section from '../../Clientes'
 import Frame from '../../Planos'
 import Ad from './../../adcional/index'
-import MenuDenSpotlight from '../../../../src/Pages/index'
 const Home = () => (
   <>
     <Analytics />
     <Header />
     <Banner />
     <Ad />
-    <MenuDenSpotlight />
     <Product />
     <Section />
     <Frame />
