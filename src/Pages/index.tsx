@@ -279,55 +279,6 @@ export default function MenuDenLandingPage() {
           </div>
         </div>
       </section>
-
-      {/* Pricing Section */}
-      <section id="precos" className="py-24 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Planos Transparentes</h2>
-            <p className="text-slate-600">Escolha a melhor opção para o tamanho do seu negócio. Sem fidelidade.</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <PricingCard
-              title="Starter"
-              price="00"
-              features={[
-                "Até 30 produtos",
-                "QR Code Básico",
-                "Link personalizado",
-                "Suporte por E-mail"
-              ]}
-            />
-            <PricingCard
-              title="Pro"
-              price="49"
-              isPopular={true}
-              features={[
-                "Produtos Ilimitados",
-                "QR Code Personalizado",
-                "Painel de Analytics",
-                "Fotos em Alta Resolução",
-                "Suporte WhatsApp",
-                "Sem anúncios"
-              ]}
-            />
-            <PricingCard
-              title="Enterprise"
-              price="99"
-              features={[
-                "Múltiplas Filiais",
-                "Gestão de Equipe",
-                "API de Integração",
-                "Consultoria de Cardápio",
-                "Gerente de Conta",
-                "Domínio Próprio"
-              ]}
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

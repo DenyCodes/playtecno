@@ -1,13 +1,13 @@
 import React from 'react';
 import { Zap, Activity, Rocket, Check } from 'lucide-react';
 
-// Configuração dos Planos e Links (Links da Stripe atualizados)
+// Configuração dos Planos e Links
 const PLANOS = {
   start: {
     nome: "Plano Start",
     link: "https://buy.stripe.com/14A8wPcWM9X018zdLSbQY00",
     destaque: false,
-    icone: <Zap size={24} color="#9333ea" />,
+    icone: <Zap size={24} className="text-purple-600" />,
     features: [
       "Landing Page",
       "Design responsivo (mobile/desktop)",
@@ -20,7 +20,7 @@ const PLANOS = {
     nome: "Plano Performance",
     link: "https://buy.stripe.com/9B67sLf4UfhkbNd0Z6bQY01",
     destaque: true,
-    icone: <Activity size={24} color="#9333ea" />,
+    icone: <Activity size={24} className="text-purple-600" />,
     features: [
       "Site institucional completo (até 6 pgs)",
       "Integração WhatsApp e Google Maps",
@@ -32,7 +32,7 @@ const PLANOS = {
     nome: "Plano Turbo",
     link: "https://buy.stripe.com/6oU5kDg8Yglo2cD6jqbQY02",
     destaque: false,
-    icone: <Rocket size={24} color="#9333ea" />,
+    icone: <Rocket size={24} className="text-purple-600" />,
     features: [
       "Layout exclusivo e personalizado",
       "Loja Virtual / E-commerce",
@@ -48,192 +48,24 @@ const App = () => {
   };
 
   return (
-    <div className="container">
-      {/* Injeção de CSS para garantir que funcione sem configurar Tailwind */}
-      <style>{`
-        .container {
-          font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-          background-color: #f9fafb;
-          min-height: 100vh;
-          padding: 60px 20px;
-          color: #1f2937;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+    <div className="min-h-screen bg-gray-50 py-20 px-4 flex flex-col items-center font-sans text-gray-800">
 
-        /* Header */
-        .header {
-          text-align: center;
-          max-width: 800px;
-          margin-bottom: 60px;
-        }
-        .subtitle {
-          color: #9333ea;
-          font-weight: 700;
-          text-transform: uppercase;
-          font-size: 14px;
-          letter-spacing: 1px;
-          margin-bottom: 10px;
-          display: block;
-        }
-        .title {
-          font-size: 36px;
-          font-weight: 800;
-          color: #111827;
-          margin: 0 0 20px 0;
-        }
-        .description {
-          font-size: 18px;
-          color: #6b7280;
-          line-height: 1.6;
-        }
-
-        /* Grid Layout */
-        .cards-grid {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 30px;
-          width: 100%;
-          max-width: 1200px;
-          align-items: flex-start;
-        }
-
-        /* Card Styles */
-        .card {
-          background: white;
-          border-radius: 16px;
-          padding: 40px 30px;
-          flex: 1;
-          min-width: 300px;
-          max-width: 380px;
-          display: flex;
-          flex-direction: column;
-          position: relative;
-          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-          border: 1px solid #e5e7eb;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-          transform: translateY(-5px);
-          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Card Destaque (Performance) */
-        .card.destaque {
-          border: 2px solid #9333ea;
-          background: #faf5ff; /* Tom de roxo muito claro */
-          box-shadow: 0 20px 25px -5px rgba(147, 51, 234, 0.15);
-          z-index: 10;
-        }
-
-        @media (min-width: 1024px) {
-          .card.destaque {
-            transform: scale(1.05);
-          }
-          .card.destaque:hover {
-            transform: scale(1.05) translateY(-5px);
-          }
-        }
-
-        .tag-popular {
-          position: absolute;
-          top: -15px;
-          right: 20px;
-          background-color: #9333ea;
-          color: white;
-          padding: 5px 15px;
-          border-radius: 20px;
-          font-size: 12px;
-          font-weight: bold;
-          text-transform: uppercase;
-          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        /* Icon Box */
-        .icon-box {
-          width: 50px;
-          height: 50px;
-          border-radius: 12px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 25px;
-        }
-        .card:not(.destaque) .icon-box { background-color: #f3e8ff; }
-        .card.destaque .icon-box { background-color: #e9d5ff; }
-
-        /* Content */
-        .plan-name {
-          font-size: 22px;
-          font-weight: 700;
-          margin: 0 0 20px 0;
-          color: #111827;
-        }
-        .card.destaque .plan-name { color: #581c87; }
-
-        /* List */
-        .features-list {
-          list-style: none;
-          padding: 0;
-          margin: 0 0 30px 0;
-          flex-grow: 1;
-        }
-        .features-list li {
-          display: flex;
-          align-items: flex-start;
-          margin-bottom: 15px;
-          font-size: 15px;
-          color: #4b5563;
-        }
-        .check-icon {
-          margin-right: 12px;
-          min-width: 20px;
-        }
-
-        /* Button */
-        .btn-contratar {
-          width: 100%;
-          padding: 14px;
-          border-radius: 8px;
-          border: none;
-          font-weight: 700;
-          font-size: 16px;
-          cursor: pointer;
-          transition: background-color 0.2s;
-        }
-
-        .card:not(.destaque) .btn-contratar {
-          background-color: #f3f4f6;
-          color: #7e22ce;
-        }
-        .card:not(.destaque) .btn-contratar:hover {
-          background-color: #e5e7eb;
-        }
-
-        .card.destaque .btn-contratar {
-          background-color: #9333ea;
-          color: white;
-          box-shadow: 0 4px 6px rgba(147, 51, 234, 0.3);
-        }
-        .card.destaque .btn-contratar:hover {
-          background-color: #7e22ce;
-        }
-
-      `}</style>
-
-      <div className="header">
-        <span className="subtitle">Planos e Preços</span>
-        <h2 className="title">Desenvolvimento de Sites Profissionais</h2>
-        <p className="description">
+      {/* Header */}
+      <div className="text-center max-w-3xl mb-16">
+        <span className="block text-purple-600 font-bold uppercase text-sm tracking-wider mb-3">
+          Planos e Preços
+        </span>
+        <h2 className="text-4xl font-extrabold text-gray-900 mb-5">
+          Desenvolvimento de Sites Profissionais
+        </h2>
+        <p className="text-lg text-gray-500 leading-relaxed">
           Escolha o plano ideal para o seu negócio. Todos incluem suporte
           técnico, hospedagem segura e design responsivo.
         </p>
       </div>
 
-      <div className="cards-grid">
+      {/* Grid Layout */}
+      <div className="flex flex-wrap justify-center gap-8 w-full max-w-7xl items-start">
         {/* Card: Start */}
         <CardPlano
           dados={PLANOS.start}
@@ -260,20 +92,42 @@ const CardPlano = ({ dados, onContratar }) => {
   const { nome, link, destaque, icone, features } = dados;
 
   return (
-    <div className={`card ${destaque ? 'destaque' : ''}`}>
-      {destaque && <div className="tag-popular">Mais Popular</div>}
+    <div
+      className={`
+        relative flex flex-col flex-1 min-w-[300px] max-w-[380px] p-8 rounded-2xl
+        transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl
+        ${destaque
+          ? 'bg-purple-50 border-2 border-purple-600 shadow-xl shadow-purple-200/50 z-10 lg:scale-105'
+          : 'bg-white border border-gray-200 shadow-lg'
+        }
+      `}
+    >
+      {destaque && (
+        <div className="absolute -top-4 right-5 bg-purple-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase shadow-md">
+          Mais Popular
+        </div>
+      )}
 
-      <div className="icon-box">
+      {/* Icon Box */}
+      <div className={`
+        w-12 h-12 rounded-xl flex items-center justify-center mb-6
+        ${destaque ? 'bg-purple-200' : 'bg-purple-100'}
+      `}>
         {icone}
       </div>
 
-      <h3 className="plan-name">{nome}</h3>
+      <h3 className={`text-2xl font-bold mb-6 ${destaque ? 'text-purple-900' : 'text-gray-900'}`}>
+        {nome}
+      </h3>
 
-      <ul className="features-list">
+      <ul className="space-y-4 mb-8 flex-grow">
         {features.map((item, index) => (
-          <li key={index}>
-            <div className="check-icon">
-              <Check size={20} color={destaque ? "#9333ea" : "#22c55e"} />
+          <li key={index} className="flex items-start text-gray-600 text-[15px]">
+            <div className="mr-3 mt-0.5 min-w-[20px]">
+              <Check
+                size={20}
+                className={destaque ? "text-purple-600" : "text-green-500"}
+              />
             </div>
             <span>{item}</span>
           </li>
@@ -282,7 +136,13 @@ const CardPlano = ({ dados, onContratar }) => {
 
       <button
         onClick={() => onContratar(link)}
-        className="btn-contratar"
+        className={`
+          w-full py-3.5 rounded-lg font-bold text-base transition-colors duration-200
+          ${destaque
+            ? 'bg-purple-600 text-white hover:bg-purple-700 shadow-lg shadow-purple-600/30'
+            : 'bg-gray-100 text-purple-700 hover:bg-gray-200'
+          }
+        `}
       >
         Contratar Plano
       </button>

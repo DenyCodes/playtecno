@@ -9,7 +9,6 @@ import Home from './components/pages/Home'
 import Login from './login/login'
 import Register from './login/register'
 // Correção do caminho de importação:
-import MenuDenLandingPage from './Pages/index'
 
 export interface AppProps {
   toggleTheme?: () => void
@@ -34,7 +33,6 @@ const App: React.FC<AppProps> = () => {
             <Route path="/register" element={<Register />} />
 
             {/* Rota da Landing Page do Menu Den */}
-            <Route path="/menuden" element={<MenuDenLandingPage />} />
           </Routes>
         </Router>
       </Container>
