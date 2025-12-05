@@ -10,7 +10,6 @@ import {
   X,
   ChefHat,
   ShoppingBag,
-  Star,
   TrendingUp,   // Importação Essencial
   ShieldCheck   // Importação Essencial
 } from 'lucide-react';
@@ -22,18 +21,13 @@ interface FeatureProps {
   description: string;
 }
 
-interface PricingCardProps {
-  title: string;
-  price: string;
-  features: string[];
-  isPopular?: boolean;
-}
+
 
 // Componente Cartão de Benefício
 const FeatureCard: React.FC<FeatureProps> = ({ icon, title, description }) => (
   <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
     <div className="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-      {React.isValidElement(icon) ? React.cloneElement(icon as React.ReactElement, { size: 28 }) : icon}
+      {React.isValidElement(icon) ? React.cloneElement(icon as React.ReactElement, ) : icon}
     </div>
     <h3 className="text-xl font-bold text-slate-900 mb-3">{title}</h3>
     <p className="text-slate-600 leading-relaxed">{description}</p>
@@ -41,35 +35,7 @@ const FeatureCard: React.FC<FeatureProps> = ({ icon, title, description }) => (
 );
 
 // Componente Cartão de Preço
-const PricingCard: React.FC<PricingCardProps> = ({ title, price, features, isPopular }) => (
-  <div className={`relative p-8 rounded-3xl border flex flex-col h-full transition-all duration-300 ${isPopular ? 'border-blue-600 bg-blue-50/30 ring-4 ring-blue-100' : 'border-slate-200 bg-white hover:border-blue-200 hover:shadow-lg'}`}>
-    {isPopular && (
-      <span className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider shadow-lg flex items-center gap-1">
-        <Star size={12} fill="white" /> Mais Popular
-      </span>
-    )}
-    <h3 className="text-2xl font-bold text-slate-900 mb-2">{title}</h3>
-    <div className="flex items-baseline mb-8">
-      <span className="text-5xl font-extrabold text-slate-900">R${price}</span>
-      <span className="text-slate-500 font-medium ml-2">/mês</span>
-    </div>
-    <ul className="space-y-4 mb-8 flex-1">
-      {features.map((feature, index) => (
-        <li key={index} className="flex items-start text-slate-700">
-          <CheckCircle2 className="w-5 h-5 text-green-500 mr-3 flex-shrink-0 mt-0.5" />
-          <span className="font-medium text-sm">{feature}</span>
-        </li>
-      ))}
-    </ul>
-    <button className={`w-full py-4 rounded-xl font-bold transition-all duration-200 flex items-center justify-center gap-2 ${
-      isPopular
-        ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-lg shadow-blue-200 hover:shadow-xl'
-        : 'bg-slate-100 text-slate-900 hover:bg-slate-200'
-    }`}>
-      Começar Agora <ArrowRight size={18} />
-    </button>
-  </div>
-);
+
 
 export default function MenuDenLandingPage() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
