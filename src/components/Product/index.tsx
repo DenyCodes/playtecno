@@ -27,20 +27,10 @@ const Product = () => {
           <LogoCard>
             <img src={google} alt="Google" />
           </LogoCard>
-          <h3>Domínio e hospedagem grátis no 1º ano</h3>
+          <h3>Domínio grátis no 1º ano</h3>
           <p>
             Já entregamos seu site no ar. Após esse período, renovação de apenas
             R$150/ano.
-          </p>
-        </Card>
-        <Card>
-          <LogoCard>
-            <img src={mapa} alt="Google" />
-          </LogoCard>
-          <h3>Sem mensalidade</h3>
-          <p>
-            Você paga apenas pelo desenvolvimento. Alterações futuras são
-            combinadas conforme sua necessidade.
           </p>
         </Card>
         <Card>
