@@ -6,6 +6,7 @@ import lri2 from '../../assets/lri2.png'
 import rollfor from '../../assets/rollfor.png'
 import braseiro from '../../assets/braseiro da lapa.png'
 import imobiliaria from '../../assets/imobiliaria.png'
+import gestaoemcampo from '../../assets/gestaoemcampo.png'
 import { Card, Carousel, CarouselTrack, ClienteItem } from './styles'
 
 const clientes = [
@@ -31,6 +32,12 @@ const clientes = [
     link: 'https://braseirodalapa.com.br/',
     nome: 'Braseiro',
     logo: braseiro
+  },
+  {
+    id: 8,
+    link: 'https://gestaoemcampo.vercel.app/',
+    nome: 'Gestão em Campo',
+    logo: gestaoemcampo
   }
 ]
 
